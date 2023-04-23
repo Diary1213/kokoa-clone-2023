@@ -1,0 +1,50 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 3% 12%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: -20px;
+  left: 21px;
+}
+
+.nav__btn:last-child {
+  position: relative;
+}
+
+.ellipsis__notification {
+  width: 8px;
+  height: 8px;
+  background-color: tomato;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
