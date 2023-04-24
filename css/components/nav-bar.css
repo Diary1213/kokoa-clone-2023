@@ -23,9 +23,21 @@
   position: absolute;
   top: -20px;
   left: 21px;
+  animation: notificationAnimation 3s ease-in-out infinite;
 }
 
 .nav__btn:last-child {
   position: relative;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
